@@ -1,0 +1,10 @@
+templateScript: /tours-field/templates/pages/dummy-page.ftl
+renderType: freemarker
+visible: true
+dialog: tours-field:pages/dummy-page-properties
+areas:
+  main:
+    renderType: freemarker
+    availableComponents:
+      dummy-component:
+        id: tours-field:components/dummy-component
